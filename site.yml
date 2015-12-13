@@ -5,7 +5,7 @@
   tasks:
     - name: Launch AWS EC2 instance
       ec2:
-        key_name: "skilldemon"
+        key_name: "{{ key_name }}"
         group: "{{ security_group }}"
         instance_type: "{{ instance_type }}"
         image: "{{ image }}"
