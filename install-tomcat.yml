@@ -1,7 +1,5 @@
 ---
 - hosts: vagrant
-  vars:
-        key_name: "vagrant"
   sudo: yes
   tasks:
     - apt: name=tomcat7 update_cache=yes
