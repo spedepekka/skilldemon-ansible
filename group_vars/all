@@ -1,0 +1,5 @@
+instance_type: t2.micro
+security_group: Skilldemon
+image: ami-47a23a30
+region: eu-west-1
+instance_name: Skilldemon
