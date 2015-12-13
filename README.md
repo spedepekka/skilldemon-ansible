@@ -12,8 +12,7 @@ Remember to set AWS credentials with [boto][boto].
 
 ## Playbooks
 
-* site.yml - Set EC2 instance
-* install-tomcat.yml - Install Tomcat
+* site.yml - Launch and configure EC2 instance
 
 ## Test
 
