@@ -28,6 +28,13 @@
       shell: echo "{{ item.public_ip }}" > tmp_ip
       with_items: ec2.instances
 
+    - name: Set EIP
+      ec2_eip:
+        ip: "{{ eip }}"
+        instance_id: "{{ item.id }}"
+        region: "{{ region }}"
+      with_items: ec2.instances
+
 
 - name: Configure Tomcat
   hosts: skilldemon

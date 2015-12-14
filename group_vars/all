@@ -3,3 +3,4 @@ security_group: Skilldemon
 image: ami-47a23a30
 region: eu-west-1
 instance_name: Skilldemon
+eip: 52.19.239.9
